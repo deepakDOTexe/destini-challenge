@@ -34,6 +34,9 @@ class StoryBrain{
         choice2: '')
   ];
 
+  String getStory() {
+    return _storyData.first.storyTitle;
+  }
 }
 
 
